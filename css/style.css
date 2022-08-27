@@ -356,7 +356,7 @@ button {
 }
 
 .education .card .title,
-.experiance.card .title {
+.experiance .card .title {
   font-size: 2.1rem;
   color: #252b33;
   font-weight: 500;
@@ -669,70 +669,58 @@ button {
 }
 
 /* Footer */
-footer .container{
-    padding: 6rem 0;
+footer .container {
+  padding: 6rem 0;
 }
-footer .row{
-    display: flex;
-    justify-content: space-between;
+footer .row {
+  display: flex;
+  justify-content: space-between;
 }
-footer p a{
-    color: #20c997;
-    transition: all .5s;
-}
-
-footer p a:hover{
-    color: #1baa80;
+footer p a {
+  color: #20c997;
+  transition: all 0.5s;
 }
 
-
-footer ul{
-    display: flex;
+footer p a:hover {
+  color: #1baa80;
 }
 
-footer ul li{
-    padding: 0 1rem;
-    position: relative;
-}
-footer ul li:first-child::after{
-    content: "";
-    position: absolute;
-    right: 0;
-    top: 5px;
-    width: 1px;
-    height: 15px;
-    background-color: #ccc;
-
+footer ul {
+  display: flex;
 }
 
-footer ul li a{
-    color: #252b33;
-    transition: all .5s;
+footer ul li {
+  padding: 0 1rem;
+  position: relative;
+}
+footer ul li:first-child::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 1px;
+  height: 15px;
+  background-color: #ccc;
+}
+
+footer ul li a {
+  color: #252b33;
+  transition: all 0.5s;
 }
 footer a:hover {
-    color: #20c997;
+  color: #20c997;
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* ############################################################# */
+/* Media Screens */
 
 @media screen and (max-width: 991px) {
   .sections-title::after {
     font-size: 12rem;
-}
+  }
 
   .toggle {
     display: block;
@@ -750,7 +738,6 @@ footer a:hover {
     padding: 3rem 2rem;
     transition: all 1s;
   }
-
   .nav ul li {
     border-bottom: 1px solid rgb(59, 58, 58);
     padding: 0.6rem 0;
@@ -810,19 +797,19 @@ footer a:hover {
   }
   .contact .contact-form input {
     width: 100%;
-}
-footer .row{
+  }
+  footer .row {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
     text-align: center;
   }
 
-  .Portfolio{
+  .Portfolio {
     margin-bottom: -350px;
   }
 
-  .testimonial{
+  .testimonial {
     background-color: #fff;
   }
 }
@@ -880,9 +867,11 @@ footer .row{
   .contact .contact-form {
     width: 100%;
   }
-
-
 }
+
+
+
+
 
 @media screen and (max-width: 575px) {
   .header-info h2 {
@@ -919,14 +908,18 @@ footer .row{
     position: static;
   }
 
-  .Portfolio{
+  .Portfolio {
     margin-bottom: 0;
   }
 
-  .testimonial{
+  .testimonial {
     background-color: transparent;
   }
 }
+
+
+/* ############################################################# */
+/* Animation */
 
 @keyframes typing {
   0% {
